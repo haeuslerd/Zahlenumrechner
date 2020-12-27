@@ -102,7 +102,6 @@ public class Zahlenumrechner_v1 {
 	}
 
 	private static void hexdu() {
-		// TODO Auto-generated method stub
 		int menuZahlLaenge = menuZahl.length();
 		char[] arrayHexEingabe = menuZahl.toCharArray();
 		int stelle = 0;
@@ -166,7 +165,6 @@ public class Zahlenumrechner_v1 {
 	}
 
 	public static void duhex() {
-		// TODO Auto-generated method stub
 		String duzdarst = menuZahl;
 		String formatiert = formatiereDualzahlen(duzdarst);
 		System.out.println("Formatiert: "+ formatiert);
@@ -303,7 +301,6 @@ public class Zahlenumrechner_v1 {
 	}
 	
 	private static String formatiereDualzahlen(String duzdarst) {
-		// TODO Auto-generated method stub
 		int i, j,  laenge;
 		duzdarst.replace(" ", "");
 		laenge=duzdarst.length();
@@ -323,13 +320,11 @@ public class Zahlenumrechner_v1 {
 	}
 	
 	private static void hexdezi() {
-		// TODO Auto-generated method stub
 		hexdu();
 		dudezi();
 	}
-	
+
 	private static void dudezi() {
-		// TODO Auto-generated method stub
 		int zwischenergebnis;
 		int ergebnis = 0;
 		int stelle = 0;
@@ -349,7 +344,6 @@ public class Zahlenumrechner_v1 {
 	}
 	
 	public static void dezidu() {
-		// TODO Auto-generated method stub
 		long zwischensumme;
 		long rest;
 		long userEingabeZahl= Long.parseLong(menuZahl);
